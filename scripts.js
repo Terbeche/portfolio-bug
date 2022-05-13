@@ -2,11 +2,11 @@ function showTheMenu() {
   if (window.screen.width >= 768) {
     return;
   }
-  document.getElementById('overlay').style.display = 'flex';
+  document.getElementById('overlay').style.display = 'none';
 }
 
 function hideTheMenu() {
-  document.getElementById('overlay').style.display = 'none';
+  document.getElementById('overlay').style.display = 'flex';
 }
 
 const navElement = document.getElementById('nav');
